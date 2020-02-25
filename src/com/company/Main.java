@@ -3,7 +3,7 @@ package com.company;
 import java.util.Scanner;
 
 public class Main {
-    private static ISubscriber subscribers [] = {
+    private static ISubscriber[] subscribers = {
             new SimpleSubscriber()
     };
     public static void main(String[] args) {

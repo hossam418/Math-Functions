@@ -8,7 +8,7 @@ public class Topic {
     private List<ISubscriber> subscribers;
 
     public Topic() {
-        subscribers = new ArrayList<ISubscriber>();
+        subscribers = new ArrayList<>();
     }
 
     public void addSubscriber(ISubscriber sub) {
