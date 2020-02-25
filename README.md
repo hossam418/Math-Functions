@@ -1,12 +1,12 @@
 # Math-Functions
 Software Engineering 2 Assignment that helps students to become more familiar with github.
 
-# To contribute please follow these rules:
+# To contribute please follow these rules
 * It is recommended to use IntelliJ IDE.
 * If you are using another IDE please contact me to know what you have to do.
 * **Do not edit on any file like *main class* or *ISubscriber* please, Add your own code only.**
 
-# To Start:
+# To Start
 1. Take a branch from the master branch.
 2. Clone your branch locally to your machine.
 3. In ../src/com.company make a new class and name it as you like.
