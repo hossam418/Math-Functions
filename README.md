@@ -20,7 +20,7 @@ Software Engineering 2 Assignment that helps students to become more familiar wi
 
 | Name  | ID | Contributed? |
 | :-------------: | :-------------: | :-------------: |
-| Belal Hamdy  | 20170077  | :heavy_check_mark: |
+| `Belal Hamdy`  | `20170077`  | :heavy_check_mark: |
 | Atef Magdy  | 20170136  | :heavy_check_mark: |
 | Nourhan Atef  | 20170325  | :heavy_check_mark: |
 | Mohamed Ahmed  | 20170364  | :heavy_check_mark: |
