@@ -19,9 +19,11 @@ public class Topic {
         return subscribers;
     }
 
-    public void dispatchEvent(String input) {
-        for (ISubscriber sub : this.getSubscribers()) {
-            sub.notifySubscriber(input);
-        }
+    public void dispatchEvent(int choice, String input) {
+        if (choice >= subscribers.size() || choice < 0)
+            for (ISubscriber sub : this.getSubscribers())
+                sub.notifySubscriberThreaded(input);
+
+        else subscribers.get(choice).notifySubscriber(input);
     }
 }

@@ -1,15 +1,14 @@
 package com.company;
 
-public class SphereAreaSubscriber implements ISubscriber {
-    static float pi = 3.14159f;
+public class SphereArea implements ISubscriber {
     @Override
     public void notifySubscriber(String input) {
 
-          double Radius = Double.valueOf(input);
+          double Radius = Double.parseDouble(input);
             System.out.println( "Sphere Area = "+Calculate_Area(Radius));
 }
 double Calculate_Area(double radius){
-        return (4 * pi * radius * radius);
+        return (4 * Math.PI * radius * radius);
 }
 
 }

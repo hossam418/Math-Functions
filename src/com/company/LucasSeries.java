@@ -1,11 +1,11 @@
 package com.company;
 
-public class LucasSeriesSubscriber implements ISubscriber {
+public class LucasSeries implements ISubscriber {
     @Override
     public void notifySubscriber(String input) {
         try {
             int LucasIndex = Integer.parseInt(input);
-            System.out.println(Lucas(LucasIndex));
+            System.out.println("Lucas Number is: " + Lucas(LucasIndex));
         } catch (Exception e) {
             System.out.println("Error: " + e.getMessage());
         }
@@ -17,6 +17,6 @@ public class LucasSeriesSubscriber implements ISubscriber {
     }
 
     private int Lucas(int idx, int value, int previous) {
-        return (idx == 0 ? previous : Lucas(idx - 1, previous + value, value));
+        return (idx == 1 ? previous : Lucas(idx - 1, previous + value, value));
     }
 }

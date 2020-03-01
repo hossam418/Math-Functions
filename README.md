@@ -16,6 +16,11 @@ Software Engineering 2 Assignment that helps students to become more familiar wi
 6. When you finish your code commit and push your changes to **Your Repository.**
 7. Create a pull request to merge your Repository to the master Repository.
 
+# Performance Enhancement
+* First every function is optimized as max as possible.
+* **When the user chooses run all functions, every function will run on single thread.**
+* Note: In run all the menu is printed before printing all results. We have made this to prove that threads are working.
+
 # Team Members
 
 | Name  | ID | Contributed? |

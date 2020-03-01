@@ -1,17 +1,17 @@
 package com.company;
 import java.lang.Math;
 
-public class Spherevolume implements ISubscriber{
+public class SphereVolume implements ISubscriber{
     @Override
     public void notifySubscriber(String input)
     {
         try
         {
-            double radius = Double.valueOf(input);
+            double radius = Double.parseDouble(input);
 
-            double Spherevolume = (4/3* Math.PI *Math.pow(radius,3));
+            double SphereVolume = (4.0/3* Math.PI *Math.pow(radius,3));
 
-            System.out.println("Sphere volume : " + Spherevolume);
+            System.out.println("Sphere volume : " + SphereVolume);
         }
         catch (Exception e)
         {

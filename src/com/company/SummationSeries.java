@@ -1,11 +1,11 @@
 package com.company;
 
 
-public class summationSeries implements ISubscriber
+public class SummationSeries implements ISubscriber
 {
 	 public  void notifySubscriber(String input){
     	 
-	    	int spaceCount = 1 , i=0 , sum = 0;
+	    	/*int spaceCount = 1 , i=0 , sum = 0;
 	     	String	temp = null;
 			String[] tag = input.split(" "); //after each space
 
@@ -20,7 +20,11 @@ public class summationSeries implements ISubscriber
 		        	sum += intTemp;
 		        	++i; spaceCount--;
 		        	}
-			System.out.println("series summation = " + sum );
+			System.out.println("series summation = " + sum );*/
+
+	    	int n = Integer.parseInt(input);
+	    	long sum = (n*(n+1))/2;
+		 	System.out.println("series summation = " + sum );
 			
 		}
 
